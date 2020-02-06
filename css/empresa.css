@@ -1,0 +1,48 @@
+h2.empresa-h2 {
+   font-size: 39px;
+}
+
+
+p.empresa {
+   font-size: 22px;
+   text-align: justify;
+   /* text-indent: 15px; */
+   color: rgb(15, 36, 36);
+}
+
+@media screen and (max-width: 640px) {
+
+img.picEmpresa {
+   display: block;
+   margin: auto;
+   width: 300px;
+   height: 250px;
+}
+
+h1 {
+   text-align: center;
+   font-size: 38px; 
+   font-weight: 600;
+   margin-top: 50px; 	
+   color: rgb(250, 248, 248);
+}
+
+}
+@media screen and (min-width: 640px) {
+
+   img.picEmpresa {
+      display: block;
+      margin: auto;
+      width: 600px;
+      height: 350px;
+   } 
+
+   h1 {
+		text-align: center;
+		font-size: 45px; 
+		font-weight: 600;
+		margin-top: 50px; 	
+		color: rgb(250, 248, 248);
+	}
+   
+   }
